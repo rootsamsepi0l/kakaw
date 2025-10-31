@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #FDFDFD;
+    --secondary-color: #E2DADB;
+    --accent-color: #4A4A4A;
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: var(--primary-color);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--accent-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, select, textarea, button {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid var(--secondary-color);
+    margin-top: 2rem;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kakaw - Café y Coworking</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cafe">Café</a></li>
+                <li><a href="#coworking">Coworking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>kakaw</h1>
+            <p>Donde el café de especialidad se encuentra con la productividad.</p>
+            <button>Conoce más</button>
+        </section>
+
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>kakaw es un espacio Japandi en el corazón de la Ciudad de México, diseñado para creativos, freelancers y cualquiera que busque un ambiente tranquilo y enfocado.</p>
+        </section>
+
+        <section id="cafe">
+            <h2>Café de Especialidad</h2>
+            <p>Disfruta de nuestra selección de granos de origen único, preparados por baristas expertos.</p>
+        </section>
+
+        <section id="coworking">
+            <h2>Coworking</h2>
+            <p>Elige el plan que mejor se adapte a tus necesidades y únete a nuestra comunidad.</p>
+            <form id="coworking-form">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <select name="plan" required>
+                    <option value="">Elige un plan</option>
+                    <option value="daily">Diario</option>
+                    <option value="weekly">Semanal</option>
+                    <option value="monthly">Mensual</option>
+                </select>
+                <button type="submit">Únete ahora</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <textarea name="message" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 kakaw. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
