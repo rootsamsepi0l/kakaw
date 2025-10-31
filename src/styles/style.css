@@ -77,3 +77,42 @@ footer {
     border-top: 1px solid var(--secondary-color);
     margin-top: 2rem;
 }
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px dotted var(--secondary-color);
+    padding-bottom: 0.5rem;
+}
+
+
+.plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.plan {
+    background: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.plan h3 {
+    margin-top: 0;
+}
+
+.plan .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent-color);
+}

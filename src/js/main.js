@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (name && email && plan) {
                 // TODO: Replace with your n8n coworking webhook URL.
-                const n8nWebhookUrl = '';
+                const n8nWebhookUrl = 'YOUR_N8N_COWORKING_WEBHOOK_URL_HERE';
 
                 if (!n8nWebhookUrl) {
                     alert('La funcionalidad de registro no está disponible en este momento. Por favor, inténtalo más tarde.');
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (name && email && message) {
                 // TODO: Replace with your n8n contact webhook URL.
-                const n8nWebhookUrl = '';
+                const n8nWebhookUrl = 'YOUR_N8N_CONTACT_WEBHOOK_URL_HERE';
 
                 if (!n8nWebhookUrl) {
                     alert('La funcionalidad de contacto no está disponible en este momento. Por favor, inténtalo más tarde.');

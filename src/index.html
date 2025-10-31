@@ -32,20 +32,89 @@
 
         <section id="cafe">
             <h2>Café de Especialidad</h2>
-            <p>Disfruta de nuestra selección de granos de origen único, preparados por baristas expertos.</p>
+            <div class="menu">
+                <h3>I. Caffè Classici</h3>
+                <ul>
+                    <li>Espresso Singolo / Doppio<span>$55 / $65</span></li>
+                    <li>Macchiato<span>$65</span></li>
+                    <li>Cappuccino Classico<span>$75</span></li>
+                    <li>Caffè Latte<span>$80</span></li>
+                    <li>Flat White<span>$85</span></li>
+                    <li>Moka Nobile<span>$90</span></li>
+                    <li>Affogato al Caffè<span>$95</span></li>
+                </ul>
+
+                <h3>II. Caffè Freddo</h3>
+                <ul>
+                    <li>Cold Brew Kakaw<span>$90</span></li>
+                    <li>Americano Freddo<span>$70</span></li>
+                    <li>Latte Freddo<span>$85</span></li>
+                    <li>Caffè Tonic<span>$95</span></li>
+                    <li>Crema Fredda Kakaw<span>$95</span></li>
+                </ul>
+
+                <h3>III. Matcha, Cioccolato e Specialità</h3>
+                <ul>
+                    <li>Matcha Latte (Caldo/Freddo)<span>$90</span></li>
+                    <li>Matcha Sporcato (Dirty Matcha)<span>$95</span></li>
+                    <li>Cioccolato Kakaw<span>$85</span></li>
+                    <li>Fior di Kakaw (Signature Floral)<span>$100</span></li>
+                    <li>Kakaw d’Arancia<span>$95</span></li>
+                </ul>
+
+                <h3>IV. Sode Italiane Artigianali</h3>
+                <ul>
+                    <li>Frutti Rossi<span>$75</span></li>
+                    <li>Mango e Passione<span>$75</span></li>
+                    <li>Lavanda e Limone<span>$80</span></li>
+                </ul>
+
+                <h3>V. Pasticceria</h3>
+                <ul>
+                    <li>Cornetto Classico<span>$45</span></li>
+                    <li>Cornetto al Cioccolato<span>$50</span></li>
+                    <li>Roll alla Cannella<span>$55</span></li>
+                    <li>Pane di Banana e Noci<span>$60</span></li>
+                    <li>Torta di Mandorle e Kakaw<span>$70</span></li>
+                    <li>Focaccia Salata (stagionale)<span>$65</span></li>
+                </ul>
+            </div>
         </section>
 
         <section id="coworking">
-            <h2>Coworking</h2>
+            <h2>Coworking — “Spazio Kakaw”</h2>
+            <div class="plans">
+                <div class="plan">
+                    <h3>Ora</h3>
+                    <p class="price">$70 MXN</p>
+                    <p>Incluye: 1 café base (espresso o americano), wifi</p>
+                </div>
+                <div class="plan">
+                    <h3>Giorno</h3>
+                    <p class="price">$220 MXN</p>
+                    <p>Incluye: 2 cafés base, snack</p>
+                </div>
+                <div class="plan">
+                    <h3>Settimana</h3>
+                    <p class="price">$900 MXN</p>
+                    <p>Incluye: 1 bebida diaria, descuento 10 %</p>
+                </div>
+                <div class="plan">
+                    <h3>Mese</h3>
+                    <p class="price">$3,000 MXN</p>
+                    <p>Incluye: 1 bebida diaria, descuento 15 %, locker, asiento fijo</p>
+                </div>
+            </div>
             <p>Elige el plan que mejor se adapte a tus necesidades y únete a nuestra comunidad.</p>
             <form id="coworking-form">
                 <input type="text" name="name" placeholder="Nombre" required>
                 <input type="email" name="email" placeholder="Correo electrónico" required>
                 <select name="plan" required>
                     <option value="">Elige un plan</option>
-                    <option value="daily">Diario</option>
-                    <option value="weekly">Semanal</option>
-                    <option value="monthly">Mensual</option>
+                    <option value="Ora">Ora</option>
+                    <option value="Giorno">Giorno</option>
+                    <option value="Settimana">Settimana</option>
+                    <option value="Mese">Mese</option>
                 </select>
                 <button type="submit">Únete ahora</button>
             </form>
